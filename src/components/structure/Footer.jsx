@@ -54,43 +54,12 @@ const Footer = () => {
   return (
     <footer>
       <div className="container footer">
-        <div className="top-wrapper">
-          <div className="categories-wrapper">
-            {Object.keys(categories).map((category, index) => (
-              <div key={`${category}_${index}`} className="category-wrapper">
-                <p className="font-size-large font-weight-medium">{category}</p>
-                <nav>
-                  {categories[category].map(({ label, href }, index) => (
-                    <a
-                      key={`${href}_${index}`}
-                      href={href}
-                      className="font-size-large font-weight-medium color-light"
-                    >
-                      {label}
-                    </a>
-                  ))}
-                </nav>
-              </div>
-            ))}
-          </div>
-        </div>
         <div className="bottom-wrapper">
           <div className="rights-wrapper">
             <img src={copyright} alt="Copyright icon" className="icon" />
             <p className="font-size-large font-weight-regular">
               All right reserved
             </p>
-          </div>
-          <div className="social-media-wrapper">
-            <a href="/">
-              <img src={linkedinIcon} alt="LinkedIn icon" className="icon" />
-            </a>
-            <a href="/">
-              <img src={twitterIcon} alt="Twitter icon" className="icon" />
-            </a>
-            <a href="/">
-              <img src={facebookIcon} alt="Facebook icon" className="icon" />
-            </a>
           </div>
         </div>
       </div>

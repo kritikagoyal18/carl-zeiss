@@ -145,14 +145,10 @@ const Home = () => {
           ❯
         </button>
       </div>
-      <FlightBookingForm />
       </ContentFragment>
-      <AdobeTargetOffer/>
 
-      <SaleOffers />
-
-      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/british-airways/banners/home-page-centre.png" alt="centre-image"  style={{ height: 'auto', width: '100%' }}/>
-      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/british-airways/banners/home-page-bottom.png" alt="bottom-image"  style={{ height: 'auto', width: '100%' }}/>
+      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/home-page-center.png" alt="centre-image"  style={{ height: 'auto', width: '100%' }}/>
+      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/home-page-bottom.png" alt="bottom-image"  style={{ height: 'auto', width: '100%' }}/>
 
     </>
   );

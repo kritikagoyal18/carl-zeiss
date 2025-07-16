@@ -1,20 +1,20 @@
 import React from "react";
 import Logo from "../Logo";
-import RedirectButton from "../RedirectButton";
 import "./Header.scss";
 
 const Header = () => {
   const navigations = [
-    { label: "Discover", href: "/services" },
-    { label: "Book", href: "/articles" },
-    { label: "Manage", href: "/flightlist" },
-    { label: "Help", href: "/articles" }
+    { label: "About Us", href: "/services" },
+    { label: "Products and Solutions", href: "/articles" },
+    { label: "Careers", href: "/flightlist" },
+    { label: "Contact", href: "/articles" }
   ];
 
   return (
     <header className="">
       <div className="container header">
         <div className="navigations-wrapper">
+          <Logo variant="carlZeissLogo" />
           <nav>
             {navigations.map(({ label, href }, index) => (
               <a
@@ -26,13 +26,6 @@ const Header = () => {
               </a>
             ))}
           </nav>
-          <Logo variant="british" />
-        </div>
-        <div className="buttons-wrapper">
-          <RedirectButton className="transparent font-size-medium hover-effect">
-            Login
-          </RedirectButton>
-          <Logo variant="oneWorldLogo"/>
         </div>
       </div>
     </header>
