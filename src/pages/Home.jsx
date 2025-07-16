@@ -113,7 +113,7 @@ const Home = () => {
   return (
     <>
       <ContentFragment cf={data}>
-        <Hero image={image} title={title} content={content} />
+        <Hero image="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/banner_zeiss.jpeg" title={title} content={content} />
         <div className="carousel">
           <div
             className="carousel-inner"
