@@ -21,8 +21,7 @@ const CarouselItem = ({ cf, navigate }) => {
       className="carousel-item"
     >         
       <div
-  className="carousel-caption"
-  style={{ backgroundImage: `url(${image})` }}>
+  className="carousel-caption">
         <Title heading="h5" prop="title" className="color-light">
           {title}
         </Title>
