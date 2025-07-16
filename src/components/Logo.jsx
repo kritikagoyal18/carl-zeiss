@@ -1,4 +1,4 @@
-import carlZeissLogo from "../assets/carl_zeiss_logo.svg"
+import carlZeissLogo from "../assets/carl_zeiss_logo.png"
 import "./Logo.scss";
 
 /**
@@ -8,7 +8,7 @@ const Logo = ({ variant }) => {
   const icon = variant === "carlZeissLogo" ? carlZeissLogo : carlZeissLogo;
   return (
     <a href="/" className="hover-effect logo-wrapper">
-      <img src={icon} alt="British Airways" className={"icon " + variant} />
+      <img src={icon} alt="Carl Zeiss" className={"icon " + variant} />
     </a>
   );
 };
