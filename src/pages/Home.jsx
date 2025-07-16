@@ -146,7 +146,7 @@ const Home = () => {
         </button>
       </div>
       </ContentFragment>
-      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/ZEISS-lens-types.png" alt="lenses-image"  style={{ height: 'auto', width: '100%' }}/>
+      <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/ZEISS-lens-types.jpeg" alt="lenses-image"  style={{ height: 'auto', width: '100%' }}/>
 
       
       <img src="https://publish-p148716-e1519766.adobeaemcloud.com/content/dam/carl-zeiss/home-page-center.png" alt="centre-image"  style={{ height: 'auto', width: '100%' }}/>
