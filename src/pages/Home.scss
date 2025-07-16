@@ -46,8 +46,10 @@
       position: relative;
 
       .carousel-caption {
-        padding: 25px;
         box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 40px;
+        border-radius: 6px;
 
         h5.color-light {
           font-size: 40px;
